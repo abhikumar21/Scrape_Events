@@ -9,7 +9,7 @@ function App() {
   const [redirectUrl, setRedirectUrl] = useState('');
 
   useEffect(() => {
-    axios.get("http://localhost:8000/events/").then(res => {
+    axios.get(process.env.REACT_APP_BACKEND_API_URL).then(res => {
       setEvents(res.data);
       // console.log(res.data);
     });
