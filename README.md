@@ -74,6 +74,6 @@ npm start
 - The Django backend uses BeautifulSoup to parse HTML content from Eventbrite's Sydney page.
 - Scraped data includes: event name, date, time, venue, link, and description.
 
-## git🔄 Future Enhancements
+## Future Enhancements
 - Add options to choose desired city for getting events
 - Add user login and favorite/save event features.
